@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(27deg, #526592 50%, #3b60b5 50%);
+
+}
+
+.body-form{
+    width: 400px;
+    min-width: 300px;
+    border-radius: 20px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border: 2px solid #1b3674;
+
+    
+}
+
+.body-form img {
+    width: 200px;
+    display: block;
+    margin: 25px auto;
+    
+}
+
+.body-form p {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 600;
+    color: whitesmoke;
+    margin-bottom: 25px;
+    
+}
+
+.body-form input {
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 80%;
+    padding-left: 20px;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1em;
+    outline: none;
+}
+
+.body-form input[type="password"] {
+    margin-top: 20px;
+
+
+}
+
+::placeholder {
+    font-size: 1em;
+    color: rgba(255, 255, 255, 580);
+
+}
+
+/* .body-form input:hover {
+    transition: 6s;
+    border: 1px dashed #69b4d9;
+    color: #176c9d;
+} */
+
+.body-form button {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 40px;
+    width: 190px;
+    background: transparent;
+    color: whitesmoke;
+    border-radius:12px;
+    cursor: pointer;
+    font-size: 1em;
+    /* outline: none;
+    transition: all .5s ease; */
+}
+
+/* .body-form button:hover {
+    color: whitesmoke;
+    border: 3px solid #3498db;
+    background: linear-gradient(#3469bd);
+} */
+
+
+   
+
